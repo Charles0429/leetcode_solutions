@@ -2,6 +2,24 @@
 #include <string>
 #include <climits>
 
+/**
+ *
+ * Implement atoi to convert a string to an integer.
+ *
+ * Hint: Carefully consider all possible input cases. If you want a challenge, please do not see below and ask yourself what are the possible input cases.
+ *
+ * Notes: It is intended for this problem to be specified vaguely (ie, no given input specs). You are responsible to gather all the input requirements up front.
+ *
+ */
+
+/**
+ * Solution:
+ * 1. skip leading spaces
+ * 2. consider positive or negative symbol
+ * 3. stop converting when encountering a invalid character
+ * 4. consider overflow
+ */
+
 class Solution 
 {
 public:
